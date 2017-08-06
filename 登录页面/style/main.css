@@ -1,0 +1,159 @@
+/*清零的方法*/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td ,table,img,dd{ margin:0; padding:0; }
+html{overflow: hidden;}
+body{font-size:12px;overflow: hidden;}
+img{border:none;}
+li{list-style:none;}
+input,select,textarea{outline:none;}
+textarea{resize:none;}
+a{text-decoration:none;}
+/*清除浮动*/
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+
+
+.container{
+	overflow: hidden;
+}
+body{
+	background: url(../images/page1.png);
+}
+.header{
+	width: 100%;
+	height: 92px;
+	overflow: hidden;
+}
+.header_left{
+	float: left;
+	width: 557px;
+	height: 57px;
+	margin: 17px 0px 0px 9px;
+	background: url(../images/page2.png) no-repeat;
+	cursor: pointer;
+}
+.header_right{
+	float: right;
+	width: 133px;
+	height: 32px;
+	margin: 44px 24px 0px 0px;
+	background: url(../images/page3.png) no-repeat;
+}
+.header_right span{
+	float: right;
+	font-family: "微软雅黑";
+	font-size: 13px;
+	color: #FFF;
+	padding: 8px 13px 0px 0px;
+	cursor: pointer;
+}
+
+/* middle部分 */
+.middle{
+	width: 100%;
+	//background-color: black;
+}
+.middle_left{
+	float: left;
+	width: 40%;
+	height:100%;
+	margin: 10px 0px 0px 200px;
+	background: url(../images/page4.png) center center no-repeat;
+	//background-color: red;
+}
+.middle_right{
+	float: left;
+	width: 40%;
+	margin: 5px 0px 0px 1px;
+	//background: url(../images/page5.png) no-repeat;
+	//background-color: red;
+}
+.middle_right_one{
+	float: left;
+	width: 65%;
+	height: 65%;
+	margin: 150px 0px 0px 10px;
+	border: 1px solid #82d8be;
+	background-color: #8fe3c7;
+}
+.middle_right_one1{
+	float: left;
+	width: 100%;
+	height: 60%;
+	//background-color: yellow;
+}
+.middle_right_one1 img{
+	padding: 5px 0px 0px 45px;
+}
+.user_name,.password{
+	width: 260px;
+	height: 40px;
+	border: none;
+	margin: 25px 0px 0px 45px;
+	padding: 0px 0px 0px 7px;
+	line-height: 37px;
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #c9c9c9;
+}
+.middle_right_one2{
+	float: left;
+	width: 100%;
+	height: 40%;
+	//background-color: yellow;
+}
+.middle_right_one2_left{
+	float: left;
+	width: 30%;
+	height: 50%;
+	margin: 0px 0px 0px 45px;
+	//background-color: red;
+}
+.middle_right_one2_right{
+	float: right;
+	width: 35%;
+	height: 50%;
+	margin: 0px 14px 0px 0px;
+	//background-color: red;
+}
+.landing{
+	font-size: 14px;
+	color: #5d5f60;
+	cursor: pointer;
+}
+.middle_right_one2_bottom{
+	float: left;
+	width: 100%;
+	height: 40%;
+	margin: 5px 0px 0px 0px;
+	//background-color: green;
+}
+.middle_right_one2_bottom img{
+	padding: 0px 0px 0px 34px;
+	cursor: pointer;
+}
+.footer{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 25px;
+	//background-color: yellow;
+}
+.footer p{
+	padding-left: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
